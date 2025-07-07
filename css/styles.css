@@ -20,6 +20,22 @@ body{
     width: 200px;
     box-shadow: 7px 7px hsl(0, 0%, 41%);
 }
+.padrebutons{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.botones{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.operandos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 5px;
+}
 .input{
     display: flex;
     justify-content: center;
@@ -31,11 +47,7 @@ input{
     background-color: hsl(120, 10%, 70%);
     padding: 5px;
     box-shadow: 5px 5px  hsl(120, 4%, 42%);
-}
-.botones{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    font-weight: bold;
 }
 button{
     background-color: hsl(0, 30%, 90%);
@@ -43,7 +55,7 @@ button{
     border-radius: 5px;
     height: 30px;
     width: 30px;
-    flex: 20%;
+    flex: 25%;
     font-weight: bold;
     box-shadow: 5px 5px hsl(0, 4%, 54%);
 }
